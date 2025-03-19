@@ -82,7 +82,7 @@ function sortearAmigo() {
             let amigoSorteado = amigos[indiceAleatorio];
             
             // Mostrar el nombre sorteado en la interfaz
-            resultado.innerHTML = `<li>🎉 ${amigoSorteado} es el amigo secreto 🎉</li>`;
+            resultado.innerHTML = `<li>🤖 ${amigoSorteado} es el amigo secreto 🤖</li>`;
             
             // Ocultar botón de sorteo y mostrar nuevo sorteo
             botonSorteo.style.display = "none";
